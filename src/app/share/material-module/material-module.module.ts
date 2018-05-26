@@ -3,7 +3,36 @@ import { CommonModule } from '@angular/common';
 
 import {
   MatButtonModule,
- } from '@angular/material';
+  MatCheckboxModule,
+  MatFormFieldModule,
+  MatIconModule,
+  MatAutocompleteModule,
+  MatInputModule,
+  MatSlideToggleModule,
+  MatRadioModule,
+  MatCardModule,
+  MatDatepickerModule,
+  NativeDateModule,
+  MatNativeDateModule,
+  MatSelectModule,
+  MatSliderModule,
+  MatMenuModule,
+  MatSidenavModule,
+  MatToolbarModule,
+  MatDividerModule,
+  MatListModule,
+  MatExpansionModule,
+  MatGridListModule,
+  MatTabsModule,
+  MatTreeModule,
+  MatProgressBarModule,
+  MatButtonToggleModule,
+  MatBadgeModule,
+  MatChipsModule,
+  MatProgressSpinnerModule,
+  MatBottomSheetModule,
+
+} from '@angular/material';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -11,11 +40,71 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CommonModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    
+    MatCheckboxModule,
+    MatIconModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatSlideToggleModule,
+    MatRadioModule,
+    MatCardModule,
+    MatDatepickerModule,
+    NativeDateModule,
+    MatNativeDateModule,
+    MatSelectModule,
+    MatSliderModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule,
+    MatGridListModule,
+    MatTabsModule,
+    MatTreeModule,
+    MatProgressBarModule,
+    MatButtonToggleModule,
+    MatBadgeModule,
+    MatChipsModule,
+    MatProgressSpinnerModule,
+    MatBottomSheetModule,
+
+
+
+
+
   ],
   exports: [
     MatButtonModule,
-   
+    MatCheckboxModule,
+    MatIconModule,
+    MatAutocompleteModule,
+    MatInputModule,
+    MatSlideToggleModule,
+    MatRadioModule,
+    MatCardModule,
+    MatDatepickerModule,
+    NativeDateModule,
+    MatNativeDateModule,
+    MatSelectModule,
+    MatSliderModule,
+    MatMenuModule,
+    MatSidenavModule,
+    MatToolbarModule,
+    MatDividerModule,
+    MatListModule,
+    MatExpansionModule,
+    MatGridListModule,
+    MatTabsModule,
+    MatTreeModule,
+    MatProgressBarModule,
+    MatButtonToggleModule,
+    MatBadgeModule,
+    MatChipsModule,
+    MatProgressSpinnerModule,
+    MatBottomSheetModule,
+
+
+
   ],
   providers: [
     // {provide: 'YYYY-MM-DD', useValue: 'YYYY-MM-DD'},
