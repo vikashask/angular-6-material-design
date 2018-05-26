@@ -1,4 +1,3 @@
-import { ProgressBarExampleComponent } from './component/buttonIndicator/progress-bar/progress-bar-example/progress-bar-example.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -9,10 +8,12 @@ import {HttpClientModule} from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
+import { AutoCompleteComponent } from './components/formControls/auto-complete/auto-complete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AutoCompleteComponent,
   ],
   imports: [
     BrowserModule,
