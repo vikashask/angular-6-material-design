@@ -9,11 +9,13 @@ import {HttpClientModule} from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { AutoCompleteComponent } from './components/formControls/auto-complete/auto-complete.component';
+import { CheckBoxComponent } from './components/formControls/check-box/check-box.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AutoCompleteComponent,
+    CheckBoxComponent,
   ],
   imports: [
     BrowserModule,
