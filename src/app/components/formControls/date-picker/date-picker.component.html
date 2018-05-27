@@ -1,0 +1,23 @@
+<h3> date icon</h3>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+
+<h3> customize the icon</h3>
+<mat-form-field class="example-full-width">
+  <input matInput [matDatepicker]="picker2" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker2">
+    <mat-icon matDatepickerToggleIcon>keyboard_arrow_down</mat-icon>
+  </mat-datepicker-toggle>
+  <mat-datepicker #picker2></mat-datepicker>
+</mat-form-field>
+
+<h3>Setting the calendar starting view</h3>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker3" placeholder="Choose a date">
+  <mat-datepicker-toggle matSuffix [for]="picker3"></mat-datepicker-toggle>
+  <mat-datepicker #picker3 startView="year" [startAt]="startDate"></mat-datepicker>
+</mat-form-field>
