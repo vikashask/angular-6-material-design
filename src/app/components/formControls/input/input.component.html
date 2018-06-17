@@ -1,0 +1,65 @@
+<mat-card>
+  <mat-card-content>
+    <form class="form-horizontal" [formGroup]="form" class="example-form" (ngSubmit)="onSubmit(form.value)">
+
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Email" formControlName="email">
+      </mat-form-field>
+      <div class="alert" *ngIf="!form.controls.email.valid && form.controls.email.touched">email not valid</div>
+
+      <mat-form-field class="example-full-width">
+        <input matInput type="password" placeholder="Password" value="" formControlName="password">
+      </mat-form-field>
+
+      <button type="submit" class="btn btn-primary" [disabled]="!form.valid">
+        Submit
+      </button>
+
+    </form>
+
+    <em>Email Valid: {{form.controls.email.valid}}</em><br>
+    <em>Form valid {{form.valid}}</em>
+  </mat-card-content>
+</mat-card>
+<br>
+<mat-card-content>
+  <mat-card>
+    <form class="example-form">
+      <mat-form-field class="example-full-width">
+        <input matInput placeholder="Company (disabled)" disabled value="Google">
+      </mat-form-field>
+    
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <input matInput placeholder="First name">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <input matInput placeholder="Last Name ">
+        </mat-form-field></td>
+      </tr></table>
+    
+      <p>
+        <mat-form-field class="example-full-width">
+          <textarea matInput placeholder="Address">1600 Amphitheatre Pkwy</textarea>
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+          <textarea matInput placeholder="Address 2"></textarea>
+        </mat-form-field>
+      </p>
+    
+      <table class="example-full-width" cellspacing="0"><tr>
+        <td><mat-form-field class="example-full-width">
+          <input matInput placeholder="City">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <input matInput placeholder="State">
+        </mat-form-field></td>
+        <td><mat-form-field class="example-full-width">
+          <input matInput #postalCode maxlength="5" placeholder="Postal Code" value="94043">
+          <mat-hint align="end">{{postalCode.value.length}} / 5</mat-hint>
+        </mat-form-field></td>
+      </tr></table>
+    </form>
+    
+  </mat-card>
+</mat-card-content>
