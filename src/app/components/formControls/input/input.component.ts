@@ -28,8 +28,8 @@ export class InputComponent implements OnInit {
       email: [null, [Validators.required, Validators.email]],
       password: [null, Validators.required],
     });
- 
-    this.form.controls['email'].setValue("vikash");
+
+    this.form.controls['email'].setValue('vikash');
   }
 
   onSubmit(Formvalue){
