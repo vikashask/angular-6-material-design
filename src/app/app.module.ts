@@ -12,6 +12,7 @@ import { AutoCompleteComponent } from './components/formControls/auto-complete/a
 import { CheckBoxComponent } from './components/formControls/check-box/check-box.component';
 import { DatePickerComponent } from './components/formControls/date-picker/date-picker.component';
 import { FormFieldComponent } from './components/formControls/form-field/form-field.component';
+import { InputComponent } from './components/formControls/input/input.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormFieldComponent } from './components/formControls/form-field/form-fi
     CheckBoxComponent,
     DatePickerComponent,
     FormFieldComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
