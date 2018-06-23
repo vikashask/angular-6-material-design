@@ -13,6 +13,7 @@ import { CheckBoxComponent } from './components/formControls/check-box/check-box
 import { DatePickerComponent } from './components/formControls/date-picker/date-picker.component';
 import { FormFieldComponent } from './components/formControls/form-field/form-field.component';
 import { InputComponent } from './components/formControls/input/input.component';
+import { RadioButtonComponent } from './components/formControls/radio-button/radio-button.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { InputComponent } from './components/formControls/input/input.component'
     CheckBoxComponent,
     DatePickerComponent,
     FormFieldComponent,
-    InputComponent
+    InputComponent,
+    RadioButtonComponent
   ],
   imports: [
     BrowserModule,
