@@ -15,6 +15,7 @@ import { FormFieldComponent } from './components/formControls/form-field/form-fi
 import { InputComponent } from './components/formControls/input/input.component';
 import { RadioButtonComponent } from './components/formControls/radio-button/radio-button.component';
 import { SelectComponent } from './components/formControls/select/select.component';
+import { SliderComponent } from './components/formControls/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SelectComponent } from './components/formControls/select/select.compone
     FormFieldComponent,
     InputComponent,
     RadioButtonComponent,
-    SelectComponent
+    SelectComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,
