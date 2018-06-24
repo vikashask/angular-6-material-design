@@ -17,6 +17,7 @@ import { RadioButtonComponent } from './components/formControls/radio-button/rad
 import { SelectComponent } from './components/formControls/select/select.component';
 import { SliderComponent } from './components/formControls/slider/slider.component';
 import { SliderToggleComponent } from './components/formControls/slider-toggle/slider-toggle.component';
+import { BadgeComponent } from './components/buttonIndicator/badge/badge.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { SliderToggleComponent } from './components/formControls/slider-toggle/s
     RadioButtonComponent,
     SelectComponent,
     SliderComponent,
-    SliderToggleComponent
+    SliderToggleComponent,
+    BadgeComponent
+    
   ],
   imports: [
     BrowserModule,
