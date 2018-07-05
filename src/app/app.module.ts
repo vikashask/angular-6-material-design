@@ -18,6 +18,7 @@ import { SelectComponent } from './components/formControls/select/select.compone
 import { SliderComponent } from './components/formControls/slider/slider.component';
 import { SliderToggleComponent } from './components/formControls/slider-toggle/slider-toggle.component';
 import { BadgeComponent } from './components/buttonIndicator/badge/badge.component';
+import { ButtonComponent } from './components/buttonIndicator/button/button.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BadgeComponent } from './components/buttonIndicator/badge/badge.compone
     SelectComponent,
     SliderComponent,
     SliderToggleComponent,
-    BadgeComponent
+    BadgeComponent,
+    ButtonComponent
     
   ],
   imports: [
