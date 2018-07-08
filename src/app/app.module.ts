@@ -20,6 +20,7 @@ import { SliderToggleComponent } from './components/formControls/slider-toggle/s
 import { BadgeComponent } from './components/buttonIndicator/badge/badge.component';
 import { ButtonComponent } from './components/buttonIndicator/button/button.component';
 import { ButtonToggleComponent } from './components/buttonIndicator/button-toggle/button-toggle.component';
+import { ChipsComponent } from './components/buttonIndicator/chips/chips.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ButtonToggleComponent } from './components/buttonIndicator/button-toggl
     SliderToggleComponent,
     BadgeComponent,
     ButtonComponent,
-    ButtonToggleComponent
+    ButtonToggleComponent,
+    ChipsComponent
     
   ],
   imports: [
