@@ -37,6 +37,7 @@ import { ChipsComponent } from './components/buttonIndicator/chips/chips.compone
     BadgeComponent,
     ButtonComponent,
     ButtonToggleComponent,
+    ChipsComponent,
     ChipsComponent
     
   ],
