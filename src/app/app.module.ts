@@ -23,6 +23,7 @@ import { ButtonToggleComponent } from './components/buttonIndicator/button-toggl
 import { ChipsComponent } from './components/buttonIndicator/chips/chips.component';
 import { CardComponent } from './components/layout/card/card.component';
 import { DividerComponent } from './components/layout/divider/divider.component';
+import { ExpansionPanelComponent } from './components/layout/expansion-panel/expansion-panel.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { DividerComponent } from './components/layout/divider/divider.component'
     ButtonToggleComponent,
     CardComponent,
     DividerComponent,
+    ExpansionPanelComponent,
   ],
   imports: [
     BrowserModule,
