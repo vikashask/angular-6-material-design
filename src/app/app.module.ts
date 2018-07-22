@@ -21,6 +21,7 @@ import { BadgeComponent } from './components/buttonIndicator/badge/badge.compone
 import { ButtonComponent } from './components/buttonIndicator/button/button.component';
 import { ButtonToggleComponent } from './components/buttonIndicator/button-toggle/button-toggle.component';
 import { ChipsComponent } from './components/buttonIndicator/chips/chips.component';
+import { CardComponent } from './components/layout/card/card.component';
 
 @NgModule({
   declarations: [
@@ -39,8 +40,8 @@ import { ChipsComponent } from './components/buttonIndicator/chips/chips.compone
     ButtonToggleComponent,
     ChipsComponent,
     ChipsComponent,
-    ButtonToggleComponent
-    
+    ButtonToggleComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
