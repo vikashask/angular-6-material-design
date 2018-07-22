@@ -24,6 +24,7 @@ import { ChipsComponent } from './components/buttonIndicator/chips/chips.compone
 import { CardComponent } from './components/layout/card/card.component';
 import { DividerComponent } from './components/layout/divider/divider.component';
 import { ExpansionPanelComponent } from './components/layout/expansion-panel/expansion-panel.component';
+import { GridListComponent } from './components/layout/grid-list/grid-list.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,9 @@ import { ExpansionPanelComponent } from './components/layout/expansion-panel/exp
     CardComponent,
     DividerComponent,
     ExpansionPanelComponent,
+    GridListComponent,
+
+    
   ],
   imports: [
     BrowserModule,
