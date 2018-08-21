@@ -25,6 +25,7 @@ import { CardComponent } from './components/layout/card/card.component';
 import { DividerComponent } from './components/layout/divider/divider.component';
 import { ExpansionPanelComponent } from './components/layout/expansion-panel/expansion-panel.component';
 import { GridListComponent } from './components/layout/grid-list/grid-list.component';
+import { ListComponent } from 'src/app/components/layout/list/list.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,7 @@ import { GridListComponent } from './components/layout/grid-list/grid-list.compo
     DividerComponent,
     ExpansionPanelComponent,
     GridListComponent,
-
+    ListComponent,
     
   ],
   imports: [
