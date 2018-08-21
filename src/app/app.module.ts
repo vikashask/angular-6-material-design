@@ -1,3 +1,4 @@
+import { StepperComponent } from './components/layout/stepper/stepper.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -50,6 +51,7 @@ import { ListComponent } from 'src/app/components/layout/list/list.component';
     ExpansionPanelComponent,
     GridListComponent,
     ListComponent,
+    StepperComponent
     
   ],
   imports: [
