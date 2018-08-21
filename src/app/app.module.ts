@@ -28,6 +28,7 @@ import { ExpansionPanelComponent } from './components/layout/expansion-panel/exp
 import { GridListComponent } from './components/layout/grid-list/grid-list.component';
 import { ListComponent } from 'src/app/components/layout/list/list.component';
 import { TabsComponent } from 'src/app/components/layout/tabs/tabs.component';
+import { MenuComponent } from 'src/app/components/navigation/menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { TabsComponent } from 'src/app/components/layout/tabs/tabs.component';
     ListComponent,
     StepperComponent,
     TabsComponent,
+    MenuComponent,
     
   ],
   imports: [
