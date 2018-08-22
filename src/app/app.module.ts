@@ -29,6 +29,7 @@ import { GridListComponent } from './components/layout/grid-list/grid-list.compo
 import { ListComponent } from 'src/app/components/layout/list/list.component';
 import { TabsComponent } from 'src/app/components/layout/tabs/tabs.component';
 import { MenuComponent } from 'src/app/components/navigation/menu/menu.component';
+import { SideNavComponent } from 'src/app/components/navigation/side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { MenuComponent } from 'src/app/components/navigation/menu/menu.component
     StepperComponent,
     TabsComponent,
     MenuComponent,
+    SideNavComponent
     
   ],
   imports: [
