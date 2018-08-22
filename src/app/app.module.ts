@@ -1,3 +1,4 @@
+import { ToolBarComponent } from './components/navigation/tool-bar/tool-bar.component';
 import { StepperComponent } from './components/layout/stepper/stepper.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -57,7 +58,8 @@ import { SideNavComponent } from 'src/app/components/navigation/side-nav/side-na
     StepperComponent,
     TabsComponent,
     MenuComponent,
-    SideNavComponent
+    SideNavComponent,
+    ToolBarComponent
     
   ],
   imports: [
